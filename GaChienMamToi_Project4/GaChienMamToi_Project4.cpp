@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 	
-	cout << " Nhu khung ";
+	cout << " Tran ơi ";
 
 	return 0;
 }
