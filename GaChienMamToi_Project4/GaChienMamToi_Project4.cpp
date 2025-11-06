@@ -18,8 +18,8 @@ public:
 	virtual void hienThiMenu() = 0;
 	virtual ~NguoiDung() {}
 };
-class QuanLy : public NguoiDung{
-public: 
+class QuanLy : public NguoiDung {
+public:
 	QuanLy() : NguoiDung() {}
 	QuanLy(string ten, string mk) : NguoiDung(ten, mk) {}
 	virtual void hienThiMenu() override {
@@ -69,6 +69,7 @@ public:
 	string getDiaChi() const { return strDiaChi; }
 	string getSDT() const { return strSDT; }
 };
+
 int main() {
 
 
