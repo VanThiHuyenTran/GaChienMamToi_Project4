@@ -131,7 +131,9 @@ int main() {
     KhachHang kh("khach", "000", "P4.Q5", "0123");
 
     string ten, mk;
-    cout << "===== ĐĂNG NHẬP HỆ THỐNG =====\n";
+    cout << "**************************************************" << endl;
+    cout << "*               DANG NHAP HE THONG               *" << endl;
+    cout << "**************************************************" << endl;
     cout << "Tên đăng nhập: ";
     getline(cin, ten);
     cout << "Mật khẩu: ";
